@@ -1,4 +1,11 @@
 # OWASP Benchmark
+
+<!-- AUTO-PACKAGE-BADGES:START -->
+<!-- Auto-generated package badges -->
+
+![Maven Central](https://img.shields.io/maven-central/v/org.owasp/benchmark?style=flat-square&logo=apachemaven&color=red) ![Maven Central downloads](https://img.shields.io/maven-central/d/org.owasp/benchmark?style=flat-square&color=brightgreen) [![Deployed](https://img.shields.io/badge/deployed-1.2-blue?style=flat-square)](https://search.maven.org/artifact/org.owasp/benchmark)
+
+<!-- AUTO-PACKAGE-BADGES:END -->
 The OWASP Benchmark Project is a Java test suite designed to verify the speed and accuracy of vulnerability detection tools. It is a fully runnable open source web application that can be analyzed by any type of Application Security Testing (AST) tool, including SAST, DAST (like <a href="https://owasp.org/www-project-zap">OWASP ZAP</a>), and IAST tools. The intent is that all the vulnerabilities deliberately included in and scored by the Benchmark are actually exploitable so its a fair test for any kind of application vulnerability detection tool. The Benchmark also includes scorecard generators for numerous open source and commercial AST tools, and the set of supported tools is growing all the time.
 
 The project documentation is all on the OWASP site at the <a href="https://owasp.org/www-project-benchmark">OWASP Benchmark</a> project pages. Please refer to that site for all the project details.
